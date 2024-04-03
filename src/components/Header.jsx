@@ -4,6 +4,7 @@ import { HiMenuAlt3 } from "react-icons/hi";
 import { RxCross2 } from "react-icons/rx";
 const twitter = "";
 const telegram = "";
+const deploy = "https://www.deploy.0xdev.pro/";
 const Header = () => {
   const [toogleMenu, setToogleMenu] = useState(false);
   return (
@@ -18,7 +19,12 @@ const Header = () => {
         <a href={twitter}>Twitter</a>
         <a href={telegram}>Telegram</a>
       </div>
-      <a href="" className="md:flex hidden">
+      <a
+        href={deploy}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="md:flex hidden"
+      >
         <button className="bg-[#28282B] text-white p-[0.625rem] px-4 border-[0.5px] rounded-[3.125rem] border-[#424242] flex items-center gap-[0.62rem]">
           Create Token
         </button>
@@ -45,7 +51,12 @@ const Header = () => {
             <a href={"#about"}>About</a>
             <a href={twitter}>Twitter</a>
             <a href={telegram}>Telegram</a>
-            <a href="" className="">
+            <a
+              href={deploy}
+              target="_blank"
+              rel="noopener noreferrer"
+              className=""
+            >
               <button className="bg-[#28282B] text-white p-[0.625rem] px-4 border-[0.5px] rounded-[3.125rem] border-[#424242] flex items-center gap-[0.62rem]">
                 Create Token
               </button>

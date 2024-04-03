@@ -39,11 +39,7 @@ const Hero = () => {
                   CA: 0xd..4Ay <LuCopy />
                 </button>
               </a>
-              <a
-                // href="#"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href="https://www.deploy.0xdev.pro/" target="_blank" rel="noopener noreferrer">
                 <button className="bg-[#28282B] text-white p-[0.625rem] px-4 border-[0.5px] rounded-[3.125rem] border-[#424242] flex items-center gap-[0.62rem]">
                   Launch a Token
                 </button>
