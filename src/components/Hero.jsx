@@ -31,15 +31,19 @@ const Hero = () => {
           <div>
             <div className="flex gap-3">
               <a
-                href="https://dexscreener.com/base/"
+                href="https://dexscreener.com/base/0x37d49bf9cfcdcdc4f867fb809475ad4dd4a10c98"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <button className="bg-[#28282B] text-white p-[0.625rem] px-4 border-[0.5px] rounded-[3.125rem] border-[#424242] flex items-center gap-[0.62rem]">
-                  CA: 0xd..4Ay <LuCopy />
+                  CA: 0xc..9CA <LuCopy />
                 </button>
               </a>
-              <a href="https://www.deploy.0xdev.pro/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.deploy.0xdev.pro/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <button className="bg-[#28282B] text-white p-[0.625rem] px-4 border-[0.5px] rounded-[3.125rem] border-[#424242] flex items-center gap-[0.62rem]">
                   Launch a Token
                 </button>
