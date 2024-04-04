@@ -17,7 +17,7 @@ const Section4 = () => {
                 Twitter(X)
               </button>
             </a> */}
-            <a href="">
+            <a href="https://t.me/Base_0xdeveloper">
               <button className="bg-[#28282B] text-white p-[0.625rem] px-4 border-[0.5px] rounded-[3.125rem] border-[#424242] flex items-center gap-[0.62rem]">
                 Telegram
               </button>

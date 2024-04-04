@@ -2,8 +2,8 @@ import { useState } from "react";
 import { logo } from "../assets";
 import { HiMenuAlt3 } from "react-icons/hi";
 import { RxCross2 } from "react-icons/rx";
-const twitter = "";
-const telegram = "";
+const twitter = "https://x.com/Base0xDeveloper";
+const telegram = "https://t.me/Base_0xdeveloper";
 const deploy = "https://www.deploy.0xdev.pro/";
 const Header = () => {
   const [toogleMenu, setToogleMenu] = useState(false);

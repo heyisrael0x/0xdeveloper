@@ -28,10 +28,10 @@ const Footer = () => {
           Lets Connect
         </div>
         <div className="flex gap-3">
-          <a href="">
+          <a href="https://t.me/Base_0xdeveloper">
             <Discrod />
           </a>
-          <a href="">
+          <a href="https://x.com/Base0xDeveloper">
             <Twitter />
           </a>
           <a href="">
