@@ -14,7 +14,7 @@ const Header = () => {
         <p className="font-semibold ml-[5px]">0xDeveloper</p>
       </div>
       <div className="md:flex hidden items-center justify-center gap-10">
-        <a href="">Chart</a>
+        <a href="https://www.dextools.io/app/en/base/pair-explorer/0x37d49bf9cfcdcdc4f867fb809475ad4dd4a10c98?t=1712307170365">Chart</a>
         <a href={"#about"}>About</a>
         <a href={twitter}>Twitter</a>
         <a href={telegram}>Telegram</a>
@@ -48,6 +48,7 @@ const Header = () => {
           className="h-screen w-screen z-10 top-0 right-0 flex absolute"
         >
           <div className="gap-4 z-10 justify-center flex flex-col items-center flex-initial w-[200px] absolute top-12 right-0 rounded-xl glass-effect md:hidden py-5 ">
+          <a href="https://www.dextools.io/app/en/base/pair-explorer/0x37d49bf9cfcdcdc4f867fb809475ad4dd4a10c98?t=1712307170365">Chart</a>
             <a href={"#about"}>About</a>
             <a href={twitter}>Twitter</a>
             <a href={telegram}>Telegram</a>
