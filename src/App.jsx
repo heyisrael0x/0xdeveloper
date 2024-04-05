@@ -3,7 +3,7 @@ import "./App.css";
 import { Header } from "./components";
 import { Hero } from "./components";
 import { Section1 } from "./components";
-import { Section2, Section3, Section4 } from "./components";
+import { Section2, Section3, Section4, Section5 } from "./components";
 import { Footer } from "./components";
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
       <Section1 />
       <Section3 />
       <Section2 />
+      <Section5 />
       <Section4 />
       <Footer />
     </div>
