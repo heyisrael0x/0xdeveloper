@@ -31,7 +31,7 @@ const Hero = () => {
           <div>
             <div className="flex gap-3">
               <a
-                href="https://dexscreener.com/base/0x37d49bf9cfcdcdc4f867fb809475ad4dd4a10c98"
+                href="https://www.dextools.io/app/en/base/pair-explorer/0x37d49bf9cfcdcdc4f867fb809475ad4dd4a10c98?t=1712307170365"
                 target="_blank"
                 rel="noopener noreferrer"
               >
