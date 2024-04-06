@@ -13,7 +13,7 @@ const Card = ({ icon, title, subtitle, button, link }) => (
     <div className="flex flex-col gap-3">
       <h1 className="mt-2 text-white text-2xl font-medium">{title}</h1>
       <p className="mt-2 text-[#EBEBF599] font-extralight">{subtitle}</p>
-      <a href={link}>
+      <a href={link} target="_blank" rel="noopener noreferrer">
         <button className="bg-[#28282B] w-44 text-white text-center justify-center border-[0.5px] rounded-[3.125rem] border-[#424242] flex items-center gap-[0.62rem]">
           {button}
         </button>
@@ -30,21 +30,28 @@ const Section5 = () => {
       </h1>
       <div className="flex flex-wrap w-screen my-[20px] gap-[26px] novasquare justify-center items-center">
         <Card
-          icon={<FaGift fontSize={21} className="text-[#ffff]" />}
+          icon={<BsFillCheckSquareFill fontSize={21} className="text-[#ffff]" />}
           title="Token Creator"
           subtitle="Creating token on Base ecosystem Made easy"
           button={"Create Token"}
           link={"https://www.deploy.0xdev.pro/"}
         />
         <Card
-          icon={<MdGroups3 fontSize={21} className="text-[#ffff]" />}
+          icon={<BsFillCheckSquareFill fontSize={21} className="text-[#ffff]" />}
+          title="Airdropper"
+          subtitle="Send/ Airdrop your Token to mutiple people in one go"
+          button={"Airdrop"}
+          link={"https://www.deploy.0xdev.pro/airdropper"}
+        />
+        <Card
+          icon={<BsFillCheckSquareFill fontSize={21} className="text-[#ffff]" />}
           title="$0xDev Staking"
           subtitle="Stake your $0xDev Token and Earning rewards"
           button={"coming soon"}
           link={""}
         />
         <Card
-          icon={<FaGlobeAmericas fontSize={21} className="text-[#ffffff]" />}
+          icon={<BsFillCheckSquareFill fontSize={21} className="text-[#ffffff]" />}
           title="Trading Bot"
           subtitle="Snipe, buy and sell tokens on Base Ecosystem"
           button={"coming soon"}
